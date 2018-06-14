@@ -4,7 +4,7 @@
 目前支持格式：列表嵌套字符串、字典、字符串
 
 下面是演示程序
-# coding: utf-8
+{# coding: utf-8
 
 import json
 from xls import Xls
@@ -35,6 +35,6 @@ class xls_test(Xls):
     def run(self):
         item_list = self.read_dict_data()
         self.save_data(item_list)
-        self.save_filed(u'文件名')  # 文件名不用加后缀
+        self.save_filed(u'文件名')  # 文件名不用加后缀}
         
                 
